@@ -1,0 +1,27 @@
+{
+  "personList" : [ {
+    "name" : "Mike",
+    "lastName" : "Tyson",
+    "age" : 33,
+    "looks" : {
+      "description" : "Nice man",
+      "height" : 180
+    }
+  }, {
+    "name" : "John",
+    "lastName" : "Smith",
+    "age" : 28,
+    "looks" : {
+      "description" : "Nice man",
+      "height" : 190
+    }
+  }, {
+    "name" : "Joseph",
+    "lastName" : "Brown",
+    "age" : 35,
+    "looks" : {
+      "description" : "Nice man",
+      "height" : 180
+    }
+  } ]
+}

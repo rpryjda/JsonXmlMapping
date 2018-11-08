@@ -1,0 +1,27 @@
+{
+  "personList" : [ {
+    "name" : "Jacobs",
+    "lastName" : "Davis",
+    "age" : 40,
+    "looks" : {
+      "description" : "Elegant man",
+      "height" : 160
+    }
+  }, {
+    "name" : "Sophia",
+    "lastName" : "Jones",
+    "age" : 23,
+    "looks" : {
+      "description" : "Elegant woman",
+      "height" : 170
+    }
+  }, {
+    "name" : "Isabella",
+    "lastName" : "Wilson",
+    "age" : 27,
+    "looks" : {
+      "description" : "Elegant woman",
+      "height" : 163
+    }
+  } ]
+}
