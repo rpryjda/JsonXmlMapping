@@ -1,0 +1,31 @@
+<People>
+    <list>
+        <person>
+            <name>Jacobs</name>
+            <lastName>Davis</lastName>
+            <age>40</age>
+            <looks>
+                <description>Elegant man</description>
+                <height>160</height>
+            </looks>
+        </person>
+        <person>
+            <name>Sophia</name>
+            <lastName>Jones</lastName>
+            <age>23</age>
+            <looks>
+                <description>Elegant woman</description>
+                <height>170</height>
+            </looks>
+        </person>
+        <person>
+            <name>Isabella</name>
+            <lastName>Wilson</lastName>
+            <age>27</age>
+            <looks>
+                <description>Elegant woman</description>
+                <height>163</height>
+            </looks>
+        </person>
+    </list>
+</People>

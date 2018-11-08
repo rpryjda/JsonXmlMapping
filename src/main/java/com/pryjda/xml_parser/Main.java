@@ -1,4 +1,4 @@
-package com.pryjda.json_parser;
+package com.pryjda.xml_parser;
 
 import com.pryjda.entities.Appearance;
 import com.pryjda.entities.People;
@@ -48,21 +48,22 @@ public class Main {
         People peopleGroup = new People();
         peopleGroup.setPersonList(Arrays.asList(personFirst, personSecond, personThrid));
 
-        //JSON PARSING:
+        //XML PARSING:
 
-        ReadWriteJson jsonInstance = new ReadWriteJson();
+        ReadWriteXml xmlInstance = new ReadWriteXml();
 
-        jsonInstance.writeObjectToJsonFile(peopleGroup, "src\\main\\resources\\people.json");
-        People groupOfPeople = jsonInstance.readJsonFromFileToObject("src\\main\\resources\\file.json");
+        xmlInstance.writeXmlFromObjectToFile(peopleGroup, "src\\main\\resources\\file.xml");
 
-        System.out.println(groupOfPeople);
-        String jsonString = jsonInstance.writeObjectToJsonString(groupOfPeople);
-        System.out.println(jsonString);
+        String xmlString = xmlInstance.writeXmlFromObjectToString(peopleGroup);
+        System.out.println(xmlString);
 
-        People anotherGroupOfPeople = jsonInstance.readJsonFromStringToObject(jsonString);
-        System.out.println(anotherGroupOfPeople);
-        String anotherJsonString = jsonInstance.writeObjectToJsonString(anotherGroupOfPeople);
-        System.out.println(anotherJsonString);
+        People peopleGroupSecond = xmlInstance.readXmlFromFileToObject("src\\main\\resources\\people.xml");
+        System.out.println(peopleGroupSecond);
+        String xmlStrinSecond = xmlInstance.writeXmlFromObjectToString(peopleGroupSecond);
+        System.out.println(xmlStrinSecond);
+
+        People peopleGroupThird = xmlInstance.readXmlFromStringToObject(xmlString);
+        System.out.println(peopleGroupThird);
 
     }
 }

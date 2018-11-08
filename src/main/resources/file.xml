@@ -1,0 +1,31 @@
+<People>
+    <list>
+        <person>
+            <name>Mike</name>
+            <lastName>Tyson</lastName>
+            <age>33</age>
+            <looks>
+                <description>Nice man</description>
+                <height>180</height>
+            </looks>
+        </person>
+        <person>
+            <name>John</name>
+            <lastName>Smith</lastName>
+            <age>28</age>
+            <looks>
+                <description>Nice man</description>
+                <height>190</height>
+            </looks>
+        </person>
+        <person>
+            <name>Joseph</name>
+            <lastName>Brown</lastName>
+            <age>35</age>
+            <looks>
+                <description>Nice man</description>
+                <height>180</height>
+            </looks>
+        </person>
+    </list>
+</People>
